@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 export default function Body() {
+    
   const [pokemonData, setPokemonData] = useState(null);
   //fetch pokemon data
   async function getPokemonData() {
